@@ -1,0 +1,18 @@
+name: arombake
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  mochi:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "dubai mochi"
+        run: echo "두바이 모찌빵"
+
+      - name: "sweet potato"
+        run: echo "고구마 모찌빵 왜 사먹음?"
+
+      - name: "eggtart"
+        run: echo "에그타르트 모찌빵"
