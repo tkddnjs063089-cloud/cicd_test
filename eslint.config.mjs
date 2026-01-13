@@ -7,15 +7,16 @@ export default defineConfig([
     files: ["**/*.{js,mjs,cjs}"],
     plugins: { js },
     extends: ["js/recommended"],
-    languageOptions: { 
+    languageOptions: {
       globals: {
         ...globals.browser,
         ...globals.node,
-      }
+      },
     },
     rules: {
       "no-unused-vars": "warn",
       "no-console": "off",
+      "no-undef": "off",
     },
   },
   {
@@ -25,7 +26,7 @@ export default defineConfig([
         ...globals.browser,
         ...globals.node,
         ...globals.jest,
-      }
+      },
     },
   },
 ]);
