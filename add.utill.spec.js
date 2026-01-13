@@ -1,4 +1,4 @@
-const { add } = require("./add.utill");
+const { add, square } = require("./add.utill");
 const fc = require("fast-check");
 
 test("adds 1 + 2 to equal 3", () => {
