@@ -19,11 +19,11 @@ jobs:
   gelato:
     runs-on: ubuntu-latest
     steps:
-      - name: "dubai mochi"
-        run: echo "두바이 모찌빵"
+      - name: "lizzo gelato"
+        run: echo "킹갓 1황 리조 젤라또"
 
-      - name: "sweet potato"
-        run: echo "고구마 모찌빵 왜 사먹음?"
+      - name: "suk gelato"
+        run: echo "2티어 젤라또 쑥쑥"
 
-      - name: "eggtart"
-        run: echo "에그타르트 모찌빵"
+      - name: "strawberry gelato"
+        run: echo "그냥 그럼"
